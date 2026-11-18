@@ -1,0 +1,29 @@
+DEVTRACK - VERSION CON ROLES, PERMISOS Y ESTRUCTURAS DE DATOS
+
+CONTENIDO AGREGADO
+1. UsuarioDato: representa los usuarios del sistema.
+2. Roles: arreglo con Administrador, Lider, Desarrollador y QA.
+3. PermisosPorRol: diccionario que relaciona cada rol con sus permisos.
+4. RegistroActividad: lista que almacena las acciones realizadas.
+
+Se conservan las estructuras originales:
+- List<ProyectoDato> Proyectos
+- List<TareaDato> Tareas
+- EstadosTarea, Prioridades y EstadosProyecto
+
+ROLES Y PERMISOS
+- Administrador: acceso a todos los módulos y operaciones.
+- Líder: proyectos, creación/modificación/eliminación de tareas y seguimiento.
+- Desarrollador: consulta de tareas, actualización de tareas y seguimiento.
+- QA: consulta de tareas, control de calidad y seguimiento.
+
+INICIO
+Al ejecutar el programa aparece una ventana de acceso donde se escribe un nombre y se selecciona un rol.
+NOTA: esta pantalla es una selección de rol para demostración académica. No autentica identidad ni usa contraseñas. Para un sistema real se debe agregar autenticación segura y almacenamiento persistente.
+
+ABRIR EN VISUAL STUDIO
+1. Extraiga el ZIP en una carpeta local.
+2. Abra DevTrack.slnx o el archivo DevTrack.csproj.
+3. Compile/Recompile la solución.
+
+El proyecto utiliza Windows Forms y apunta a net10.0-windows, por lo que requiere el SDK correspondiente de .NET y Visual Studio compatible.

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DevTrack.Web/DevTrack.Web.csproj" />
+  <Project Path="DevTrack/DevTrack.csproj" />
+</Solution>
